@@ -16,7 +16,7 @@ const ContactSchema = new mongoose.Schema({
     phone: {
         type: Number,
         required: true
-    }
+    },
 }, {timestamps: true})
 
 export default mongoose?.models?.Contact || mongoose.model("Contact", ContactSchema)
